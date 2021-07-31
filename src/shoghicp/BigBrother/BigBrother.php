@@ -79,6 +79,8 @@ class BigBrother extends PluginBase implements Listener{
 	 * @override
 	 */
 	public function onEnable(){
+		//note: ANYONE who change's the Author WILL get caught, this is not a joke, best of luck
+		$this->getLogger()->info("By Shoghicp fixed by Superomarking");
 		$enable = true;
 		foreach($this->getServer()->getNetwork()->getInterfaces() as $interface){
 			if($interface instanceof ProtocolInterface){
