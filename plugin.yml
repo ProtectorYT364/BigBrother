@@ -1,0 +1,9 @@
+name: BigBrother
+main: shoghicp\BigBrother\BigBrother
+load: STARTUP
+authors:
+- Superomarking
+- shoghi
+version: 2.0.0
+api: 3.21.0
+description: "Allows the connection of Minecraft: PC clients to PocketMine-MP servers"
